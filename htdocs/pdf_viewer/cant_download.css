@@ -1,1 +1,1 @@
-#download {display: none}
+#download, #secondaryDownload {display: none !important}

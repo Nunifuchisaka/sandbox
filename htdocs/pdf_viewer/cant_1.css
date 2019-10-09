@@ -1,2 +1,2 @@
-#print,
-#download {display: none}
+#print, #secondaryPrint,
+#download, #secondaryDownload {display: none !important}

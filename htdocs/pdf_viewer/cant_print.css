@@ -1,1 +1,1 @@
-#print {display: none}
+#print, #secondaryPrint {display: none !important}
