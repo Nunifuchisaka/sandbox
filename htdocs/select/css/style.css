@@ -1,0 +1,70 @@
+body {
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+}
+
+.container h1 {
+  padding: 16px 0;
+  font-size: 16px;
+  border-bottom: solid 1px #ddd;
+}
+
+
+
+.nSelect_1 {
+  display: inline-block;
+  position: relative;
+}
+
+.nSelect_1 input[type="checkbox"] {
+  display: none;
+}
+
+.nSelect_1 label {
+  display: block;
+  border: solid 1px #666;
+  white-space: nowrap;
+  /* box-sizing: border-box; */
+  cursor: pointer;
+}
+
+.nSelect_1 label,
+.nSelect_1__options li {
+  font-size: 100%;
+  padding: .5em 1em;
+}
+
+.nSelect_1__options {
+  visibility: hidden;
+  overflow-y: hidden;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: solid #bbb 1px;
+  background: #fff;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.nSelect_1__options li {
+  border-bottom: solid #bbb 1px;
+  list-style: none;
+  cursor: pointer;
+}
+.nSelect_1__options li:last-child {
+  border: none;
+}
+.nSelect_1__options li:hover {
+  color: #666;
+  background: #eee;
+}
+
+.nSelect_1 input[type="checkbox"]:checked + .nSelect_1__options {
+  visibility: visible;
+  height: auto;
+}
